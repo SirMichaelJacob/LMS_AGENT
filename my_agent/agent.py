@@ -17,7 +17,6 @@ load_dotenv()
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CERT_PATH = os.path.join(BASE_DIR, "lms.crt")
-INJECTION_VALIDATION = os.getenv("INJECTION_PATTERNS",[])
 
 
 def createModel()-> LiteLlm:    
