@@ -196,6 +196,7 @@ def activate_user(user_id: str) -> dict:
             }
         }
 
+
 def deactivate_user(user_id: str) -> dict:
     """
     Deactivates a user in the LMS system via its API.
@@ -563,4 +564,3 @@ Always reason step-by-step before responding or delegating.
 """,
     sub_agents=[user_manager_agent, course_manager_agent]
 )
-
