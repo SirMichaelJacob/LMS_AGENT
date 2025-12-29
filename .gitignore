@@ -8,6 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
-my_agent/.env
+*.env
 .env
 lms.crt
